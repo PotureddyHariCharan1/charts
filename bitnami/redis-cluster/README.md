@@ -13,7 +13,7 @@ Disclaimer: Redis is a registered trademark of Redis Ltd. Any rights therein are
 ```bash
 $ helm repo add bitnami https://charts.bitnami.com/bitnami
 $ helm install my-release bitnami/redis-cluster 
-# $ helm install my-release bitnami/redis-cluster -f redis.yaml demo
+# $ helm install my-release bitnami/redis-cluster -f redis.yaml -n demo
 ```
 
 ## Introduction
